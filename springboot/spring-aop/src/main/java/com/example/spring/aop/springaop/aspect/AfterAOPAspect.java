@@ -21,7 +21,7 @@ public class AfterAOPAspect {
 
     @AfterThrowing(value="execution(* com.example.spring.aop.springaop.business.*.*(..))", throwing="exception")
     public void afterThrowing(JoinPoint joinPoint, Exception exception){
-        logger.info("jointpoint - {}, Return value - {}", joinPoint, exception);
+        logger.info("jointpoint - {}, Exception - {}", joinPoint, exception);
     }
 
     @After(value="execution(* com.example.spring.aop.springaop.business.*.*(..))")

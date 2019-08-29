@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class UserAccessAspect {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Before("execution(* com.example.spring.aop.springaop..*.*(..))")
+    @Before("com.example.spring.aop.springaop.aspect.CommonJoinPointConfig.dataLayerExecution()")
     public void before(JoinPoint joinPoint){
         logger.info("Intercepted before method calls - {}", joinPoint);
     }
