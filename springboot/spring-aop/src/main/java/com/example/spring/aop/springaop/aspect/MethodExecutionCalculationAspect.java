@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Aspect
 @Configuration
-public class MethodExectionCalculationAspect {
+public class MethodExecutionCalculationAspect {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Around(value="execution(* com.example.spring.aop.springaop.business.*.*(..))")

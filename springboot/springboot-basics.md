@@ -9,6 +9,7 @@
 	- embedded servers
 
 Spring Boot does NOT:
+
 	- do code generation
 	- Neither an application server nor a web server
 
