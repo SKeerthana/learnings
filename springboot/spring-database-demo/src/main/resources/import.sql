@@ -1,0 +1,3 @@
+INSERT INTO USER (ID, NAME, LOCATION, BIRTH_DATE) VALUES(10001,  'Keerthana', 'Bangalore',sysdate());
+INSERT INTO USER (ID, NAME, LOCATION, BIRTH_DATE) VALUES(10002,  'James', 'New York',sysdate());
+INSERT INTO USER (ID, NAME, LOCATION, BIRTH_DATE) VALUES(10003,  'Pieter', 'Amsterdam',sysdate());
