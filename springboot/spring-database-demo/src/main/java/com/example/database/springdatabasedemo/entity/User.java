@@ -1,13 +1,11 @@
 package com.example.database.springdatabasedemo.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name="user")
+@NamedQuery(name="find_all_persons", query="select u from User u")
 public class User {
 
     @Id
