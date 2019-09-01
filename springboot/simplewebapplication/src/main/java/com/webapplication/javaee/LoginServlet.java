@@ -1,4 +1,4 @@
-package com.webapplication;
+package com.webapplication.javaee;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
